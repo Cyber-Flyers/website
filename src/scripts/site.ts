@@ -32,7 +32,7 @@ function initializePage(hash = location.hash, scrollToAnchor = true) {
   const menuButton = document.querySelector<HTMLButtonElement>(".menu-toggle");
   const primaryNav = document.querySelector<HTMLElement>("#primary-navigation");
   const hoverNavigation = window.matchMedia(
-    "(min-width: 1081px) and (hover: hover) and (pointer: fine)",
+    "(min-width: 1201px) and (hover: hover) and (pointer: fine)",
   );
   const dropdowns = Array.from(
     document.querySelectorAll<HTMLDetailsElement>(".nav-dropdown"),
@@ -150,7 +150,7 @@ function initializePage(hash = location.hash, scrollToAnchor = true) {
       }
     });
   window
-    .matchMedia("(min-width: 1081px)")
+    .matchMedia("(min-width: 1201px)")
     .addEventListener("change", closeMenu, { signal });
   hoverNavigation.addEventListener("change", closeMenu, { signal });
   const motionButton =

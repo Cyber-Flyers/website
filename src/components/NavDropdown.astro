@@ -162,7 +162,7 @@ const submenuId = `nav-${href.replace(/[^a-z0-9]+/gi, "-").replace(/^-|-$/g, "")
   :global(.motion-paused) details[open] .nav-submenu {
     animation: none;
   }
-  @media (min-width: 1081px) and (prefers-reduced-motion: no-preference) {
+  @media (min-width: 1201px) and (prefers-reduced-motion: no-preference) {
     details[open] .nav-submenu {
       animation: menu-enter 140ms ease-out;
     }
@@ -177,7 +177,7 @@ const submenuId = `nav-${href.replace(/[^a-z0-9]+/gi, "-").replace(/^-|-$/g, "")
       }
     }
   }
-  @media (min-width: 1081px) and (hover: hover) and (pointer: fine) {
+  @media (min-width: 1201px) and (hover: hover) and (pointer: fine) {
     :global(.js) .nav-group {
       min-height: 44px;
     }
@@ -188,12 +188,7 @@ const submenuId = `nav-${href.replace(/[^a-z0-9]+/gi, "-").replace(/^-|-$/g, "")
       display: block;
     }
   }
-  @media (min-width: 1081px) and (max-width: 1200px) {
-    .nav-group-cta .nav-submenu {
-      max-width: calc(100% + 48px);
-    }
-  }
-  @media (max-width: 1080px) {
+  @media (max-width: 1200px) {
     .nav-group {
       display: block;
       border-bottom: 1px solid var(--border-subtle);
