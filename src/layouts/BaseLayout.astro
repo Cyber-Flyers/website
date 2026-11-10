@@ -6,7 +6,7 @@ import "../styles/global.css";
 import Icon from "../components/Icon.astro";
 import NavDropdown from "../components/NavDropdown.astro";
 import ConnectLinks from "../components/ConnectLinks.astro";
-import { contactEmail, contactHref, emailSignupUrl } from "../data/connect";
+import { blogUrl, contactEmail, contactHref, emailSignupUrl } from "../data/connect";
 import { sectionLinks } from "../data/navigation";
 const navigation = [
   { href: "/", label: "Home" },
@@ -19,6 +19,7 @@ const navigation = [
   },
   { href: "/impact/", label: "Impact & Reports" },
   { href: "/resources/", label: "Resources", links: sectionLinks.resources },
+  { href: blogUrl, label: "Blog" },
 ];
 interface Props {
   title: string;

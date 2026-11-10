@@ -90,7 +90,7 @@
     left: -12px;
   }
 }
-@media (max-width: 1080px) {
+@media (max-width: 1200px) {
   .header-inner {
     height: 82px;
   }
@@ -198,7 +198,7 @@
 .site-header nav .header-cta.is-active:before {
   background: var(--surface-dark);
 }
-@media (max-width: 1080px) {
+@media (max-width: 1200px) {
   .header-inner {
     position: static;
   }
@@ -210,7 +210,7 @@
 .header-cta {
   font-size: var(--text-size-control);
 }
-@media (max-width: 1080px) {
+@media (max-width: 1200px) {
   html:not(.js) .site-header {
     position: static;
   }
