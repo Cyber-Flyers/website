@@ -2,7 +2,7 @@ export const contactEmail = "cyberflyers@udayton.edu";
 export const contactHref = `mailto:${contactEmail}`;
 export const emailSignupUrl =
   "https://docs.google.com/forms/d/e/1FAIpQLSe0x3NOXtlQvgkszrFodiGGYHFQqf_SRfUE_1z0HwLQi8m8Sg/viewform";
-export const blogUrl = "https://cf.therangerpost.com/";
+export const blogUrl = "https://blog.cyberflyers.org/";
 
 // Public destinations listed at https://linktr.ee/cyberflyersud.
 export const connectLinks = [
@@ -30,7 +30,7 @@ export const connectLinks = [
   },
   {
     name: "The Cyber Flyers blog",
-    detail: "Hosted by the Texas Cyber Range",
+    detail: "Articles by Cyber Flyers members",
     description: "Read student perspectives on cybersecurity.",
     href: blogUrl,
     icon: "book",
