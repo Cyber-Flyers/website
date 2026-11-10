@@ -284,7 +284,7 @@ export const resourceGroups = [
     items: [
       {
         title: "Cyber Flyers blog",
-        label: "Articles · Texas Cyber Range",
+        label: "Articles · Cyber Flyers",
         url: blogUrl,
         description:
           "Student perspectives on cybersecurity, digital habits, and the issues affecting our community.",
